@@ -1,0 +1,30 @@
+{
+  "name": "cypress-ajv-schema-validator-sample-project",
+  "version": "1.0.0",
+  "description": "CYPRESS-AJV-SCHEMA-VALIDATOR Plugin Video Tutorial Material",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclavijosuero/cypress-ajv-schema-validator-sample-project.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "validator",
+    "sample",
+    "project",
+    "cypress-ajv-schema-validator"
+  ],
+  "author": "Sebastian Clavijo Suero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sclavijosuero/cypress-ajv-schema-validator-sample-project/issues"
+  },
+  "homepage": "https://github.com/sclavijosuero/cypress-ajv-schema-validator-sample-project#readme",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
