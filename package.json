@@ -25,6 +25,11 @@
   },
   "homepage": "https://github.com/sclavijosuero/cypress-ajv-schema-validator-sample-project#readme",
   "devDependencies": {
-    "cypress": "^13.16.1"
+    "@bahmutov/cy-api": "^2.2.6",
+    "cypress": "^13.16.1",
+    "cypress-ajv-schema-validator": "^1.4.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
   }
 }

@@ -1,0 +1,10 @@
+{
+    "status": 200,
+    "headers": {
+        "content-type": "application/json"
+    },
+    "body": {
+        "code": 401,
+        "message": "Unauthorized access. Please provide valid credentials."
+    }
+}
