@@ -4,12 +4,11 @@
 
 import '@bahmutov/cy-api'
 
-import petstoreSchema from '../fixtures/schemas/petstore-swagger-errors.json'
+import petstoreSchema from '../fixtures/schemas/petstore-swagger2-schema-errors.json'
 
 describe(`Petstore Swagger2 Test Suite - '@bahmutov/cy-api' cy.api()`, () => {
     
     it(`Test will FAIL - Swagger2 Schema Validation - Use Case: "/pet/findByStatusstatus=pending" - "get" - 200`, () => {
-
         const findByStatusReq = {
             url: 'https://petstore.swagger.io/v2/pet/findByStatus?status=pending',
             headers: { 'Content-Type': 'application/json' }
@@ -20,7 +19,6 @@ describe(`Petstore Swagger2 Test Suite - '@bahmutov/cy-api' cy.api()`, () => {
     })
 
     it(`Test will FAIL - Swagger2 Schema Validation - Use Case: /store/inventory" - "get" - 200`, () => {
-
         const storeInventoryReq = {
             url: 'https://petstore.swagger.io/v2/store/inventory',
             headers: { 'Content-Type': 'application/json' }
