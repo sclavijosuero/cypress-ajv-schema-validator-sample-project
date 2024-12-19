@@ -17,7 +17,9 @@ import 'cypress-ajv-schema-validator';
 // - MirageJS (https://github.com/miragejs/miragejs)
 // - Nock (https://github.com/nock/nock)
 
-Cypress.Commands.add('requestMock', (fixturePath) => {
+Cypress.Commands.add('requestMock', (method = 'GET', url) => {
+    const fixturePath = `${url}_${method.toUpperCase()}`
+
     cy.fixture(fixturePath).then((responseData) => {
         cy.log(`👽👽👽 *** MOCKING REQUEST WITH PROVIDED FIXTURE *** `,  responseData)
         return cy.wrap(responseData)

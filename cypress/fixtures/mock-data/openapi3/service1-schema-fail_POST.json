@@ -1,10 +1,10 @@
 {
-    "status": 200,
+    "status": 401,
     "headers": {
         "content-type": "application/json"
     },
     "body": {
-        "code": null,
-        "message": 123456
+        "code": 401,
+        "message": null
     }
 }
