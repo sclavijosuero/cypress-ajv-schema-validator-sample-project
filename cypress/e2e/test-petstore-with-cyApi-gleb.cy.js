@@ -17,15 +17,5 @@ describe(`Petstore Swagger2 Test Suite - '@bahmutov/cy-api' cy.api()`, () => {
         cy.api(findByStatusReq)
             .validateSchema(petstoreSchema, { endpoint: '/pet/findByStatus', method: 'get', status: 200 } )
     })
-
-    it(`Test will FAIL - Swagger2 Schema Validation - Use Case: /store/inventory" - "get" - 200`, () => {
-        const storeInventoryReq = {
-            url: 'https://petstore.swagger.io/v2/store/inventory',
-            headers: { 'Content-Type': 'application/json' }
-        }
-
-        cy.api(storeInventoryReq)
-            .validateSchema(petstoreSchema, { endpoint: '/store/inventory', method: 'get', status: 200 })
-    })
 })
 

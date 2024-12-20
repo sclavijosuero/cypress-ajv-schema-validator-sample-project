@@ -1,76 +1,50 @@
 {
-    "type": "array",
-    "items": {
+  "type": "object",
+  "properties": {
+    "post code": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "country abbreviation": {
+      "type": "string"
+    },
+    "places": {
+      "type": "array",
+      "items": {
         "type": "object",
         "properties": {
-            "id": {
-                "type": "string",
-                "format": "uuid"
-            },
-            "name": {
-                "type": "string"
-            },
-            "age": {
-                "type": "integer"
-            },
-            "email": {
-                "type": "string",
-                "format": "email"
-            },
-            "created_at": {
-                "type": "string",
-                "format": "date-time"
-            },
-            "is_active": {
-                "type": "boolean"
-            },
-            "tags": {
-                "type": "array",
-                "items": {
-                    "type": "string"
-                }
-            },
-            "address": {
-                "type": "object",
-                "properties": {
-                    "street": {
-                        "type": "string"
-                    },
-                    "city": {
-                        "type": "string"
-                    },
-                    "postal_code": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "street",
-                    "city",
-                    "postal_code"
-                ]
-            },
-            "preferences": {
-                "type": "object",
-                "properties": {
-                    "notifications": {
-                        "type": "boolean"
-                    },
-                    "theme": {
-                        "type": "string"
-                    },
-                    "items_per_page": {
-                        "type": "integer"
-                    }
-                }
-            }
+          "place name": {
+            "type": "string"
+          },
+          "longitude": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "state abbreviation": {
+            "type": "string"
+          },
+          "latitude": {
+            "type": "string"
+          }
         },
         "required": [
-            "id",
-            "name",
-            "age",
-            "email",
-            "created_at",
-            "is_active"
+          "place name",
+          "longitude",
+          "state",
+          "state abbreviation",
+          "latitude"
         ]
+      }
     }
+  },
+  "required": [
+    "post code",
+    "country",
+    "country abbreviation",
+    "places"
+  ]
 }

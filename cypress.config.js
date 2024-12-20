@@ -12,3 +12,4 @@ module.exports = defineConfig({
     baseUrl: 'https://petstore.swagger.io/v2',
   },
 });
+
