@@ -1,8 +1,6 @@
 /// <reference types="cypress" />
 
-// npm install --save-dev @bahmutov/cy-api
-
-import '@bahmutov/cy-api'
+import '@bahmutov/cy-api' // Or: import 'cypress-plugin-api'
 
 import petstoreSchema from '../fixtures/schemas/petstore-swagger2-schema-errors.json'
 
@@ -18,4 +16,3 @@ describe(`Petstore Swagger2 Test Suite - '@bahmutov/cy-api' cy.api()`, () => {
             .validateSchema(petstoreSchema, { endpoint: '/pet/findByStatus', method: 'get', status: 200 } )
     })
 })
-

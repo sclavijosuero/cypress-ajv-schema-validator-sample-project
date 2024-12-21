@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+// Load Plain JSON schema
 import schema from '../fixtures/schemas/plainjson-schema.json'
 
 describe(`First JSON Schema Test Suite`, () => {
