@@ -1,6 +1,6 @@
 # cypress-ajv-schema-validator-sample-project
 
-Welcome to the Cypress-ajv-schema-validator Sample Project repository. This project serves as a demonstration of the features and best practices using the cypress-ajv-schema-validator Plugin, as showcased in the ["CYPRESS-AJV-SCHEMA-VALIDATOR PLUGIN VIDEO TUTORIAL"](https://www.youtube.com/watch?v=Dd6MMZ6qd7g ""CYPRESS-AJV-SCHEMA-VALIDATOR PLUGIN VIDEO TUTORIAL"").
+Welcome to the Cypress-ajv-schema-validator Sample Project repository. This project serves as a demonstration of the features and best practices using the cypress-ajv-schema-validator Plugin, as showcased in the ["CYPRESS-AJV-SCHEMA-VALIDATOR PLUGIN VIDEO TUTORIAL"](https://www.youtube.com/watch?v=Dd6MMZ6qd7g "CYPRESS-AJV-SCHEMA-VALIDATOR PLUGIN VIDEO TUTORIAL").
 
 &nbsp;
 
